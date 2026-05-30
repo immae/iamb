@@ -52,7 +52,7 @@
           inherit src;
           strictDeps = true;
           pname = "iamb";
-          version = self.shortRev or self.dirtyShortRev;
+          version = "v0.0.11-7-g5cb769b";
         };
 
         # Build *just* the cargo dependencies, so we can reuse
